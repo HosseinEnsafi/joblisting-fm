@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import Job, { JobType } from "./Job"
-import data from "../../data.json"
+import data from "../../data"
 
 interface Filter {
   role: string
