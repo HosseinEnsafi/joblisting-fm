@@ -1,9 +1,14 @@
+import photoshopImg from "./src/assets/images/photosnap.svg"
+import manageImg from "./src/assets/images/manage.svg"
+import photoshopImg from "./src/assets/images/photosnap.svg"
+import photoshopImg from "./src/assets/images/photosnap.svg"
+import photoshopImg from "./src/assets/images/photosnap.svg"
 const data = {
   jobs: [
     {
       id: 1,
       company: "Photosnap",
-      logo: "./src/assets/images/photosnap.svg",
+      logo: photoshopImg,
       new: true,
       featured: true,
       position: "Senior Frontend Developer",
@@ -18,7 +23,7 @@ const data = {
     {
       id: 2,
       company: "Manage",
-      logo: "./src/assets/images/manage.svg",
+      logo:photoshopImg,
       new: true,
       featured: true,
       position: "Fullstack Developer",
