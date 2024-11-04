@@ -1,5 +1,5 @@
 import JobBoard from "./components/JobBoard";
-import header from "./assets/images/bg-header-mobile.svg";
+import header from "/images/bg-header-mobile.svg";
 function App() {
   return (
     <>
