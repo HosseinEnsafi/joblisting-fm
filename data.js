@@ -1,13 +1,13 @@
-import photosnap from "/assets/images/photosnap.svg"
-import manage from "/assets/images/manage.svg"
-import account from "/assets/images/account.svg"
-import myhome from "/assets/images/myhome.svg"
-import loop from "/assets/images/loop-studios"
-import faceit from "/assets/images/faceit.svg"
-import shortly from "/assets/images/shortly.svg"
-import insure from "/assets/images/insure.svg"
-import eyecam from "/assets/images/eyecam-co"
-import air from "/assets/images/the-air-filter-company.svg"
+import photosnap from "/images/photosnap.svg"
+import manage from "/images/manage.svg"
+import account from "/images/account.svg"
+import myhome from "/images/myhome.svg"
+import loop from "/images/loop-studios"
+import faceit from "/images/faceit.svg"
+import shortly from "/images/shortly.svg"
+import insure from "/images/insure.svg"
+import eyecam from "/images/eyecam-co"
+import air from "/images/the-air-filter-company.svg"
 
 const data = {
   jobs: [
@@ -44,7 +44,7 @@ const data = {
     {
       id: 3,
       company: "Account",
-      logo: "./public/assets/images/account.svg",
+      logo: account,
       new: true,
       featured: false,
       position: "Junior Frontend Developer",
@@ -59,7 +59,7 @@ const data = {
     {
       id: 4,
       company: "MyHome",
-      logo: "./public/assets/images/myhome.svg",
+      logo: myhome,
       new: false,
       featured: false,
       position: "Junior Frontend Developer",
@@ -74,7 +74,7 @@ const data = {
     {
       id: 5,
       company: "Loop Studios",
-      logo: "./public/assets/images/loop-studios.svg",
+      logo: loop,
       new: false,
       featured: false,
       position: "Software Engineer",
@@ -89,7 +89,7 @@ const data = {
     {
       id: 6,
       company: "FaceIt",
-      logo: "./public/assets/images/faceit.svg",
+      logo: faceit,
       new: false,
       featured: false,
       position: "Junior Backend Developer",
@@ -104,7 +104,7 @@ const data = {
     {
       id: 7,
       company: "Shortly",
-      logo: "./public/assets/images/shortly.svg",
+      logo: shortly,
       new: false,
       featured: false,
       position: "Junior Developer",
@@ -119,7 +119,7 @@ const data = {
     {
       id: 8,
       company: "Insure",
-      logo: "./public/assets/images/insure.svg",
+      logo:insure,
       new: false,
       featured: false,
       position: "Junior Frontend Developer",
@@ -134,7 +134,7 @@ const data = {
     {
       id: 9,
       company: "Eyecam Co.",
-      logo: "./public/assets/images/eyecam-co.svg",
+      logo: eyecam,
       new: false,
       featured: false,
       position: "Full Stack Engineer",
@@ -149,7 +149,7 @@ const data = {
     {
       id: 10,
       company: "The Air Filter Company",
-      logo: "./public/assets/images/the-air-filter-company.svg",
+      logo: air,
       new: false,
       featured: false,
       position: "Front-end Dev",
@@ -163,3 +163,5 @@ const data = {
     },
   ],
 }
+
+export default data
