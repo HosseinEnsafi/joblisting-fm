@@ -1,14 +1,20 @@
-import photoshopImg from "./src/assets/images/photosnap.svg"
-import manageImg from "./src/assets/images/manage.svg"
-import photoshopImg from "./src/assets/images/photosnap.svg"
-import photoshopImg from "./src/assets/images/photosnap.svg"
-import photoshopImg from "./src/assets/images/photosnap.svg"
+import photosnap from "/assets/images/photosnap.svg"
+import manage from "/assets/images/manage.svg"
+import account from "/assets/images/account.svg"
+import myhome from "/assets/images/myhome.svg"
+import loop from "/assets/images/loop-studios"
+import faceit from "/assets/images/faceit.svg"
+import shortly from "/assets/images/shortly.svg"
+import insure from "/assets/images/insure.svg"
+import eyecam from "/assets/images/eyecam-co"
+import air from "/assets/images/the-air-filter-company.svg"
+
 const data = {
   jobs: [
     {
       id: 1,
       company: "Photosnap",
-      logo: photoshopImg,
+      logo: photosnap,
       new: true,
       featured: true,
       position: "Senior Frontend Developer",
@@ -23,7 +29,7 @@ const data = {
     {
       id: 2,
       company: "Manage",
-      logo:photoshopImg,
+      logo: manage,
       new: true,
       featured: true,
       position: "Fullstack Developer",
@@ -38,7 +44,7 @@ const data = {
     {
       id: 3,
       company: "Account",
-      logo: "./src/assets/images/account.svg",
+      logo: "./public/assets/images/account.svg",
       new: true,
       featured: false,
       position: "Junior Frontend Developer",
@@ -53,7 +59,7 @@ const data = {
     {
       id: 4,
       company: "MyHome",
-      logo: "./src/assets/images/myhome.svg",
+      logo: "./public/assets/images/myhome.svg",
       new: false,
       featured: false,
       position: "Junior Frontend Developer",
@@ -68,7 +74,7 @@ const data = {
     {
       id: 5,
       company: "Loop Studios",
-      logo: "./src/assets/images/loop-studios.svg",
+      logo: "./public/assets/images/loop-studios.svg",
       new: false,
       featured: false,
       position: "Software Engineer",
@@ -83,7 +89,7 @@ const data = {
     {
       id: 6,
       company: "FaceIt",
-      logo: "./src/assets/images/faceit.svg",
+      logo: "./public/assets/images/faceit.svg",
       new: false,
       featured: false,
       position: "Junior Backend Developer",
@@ -98,7 +104,7 @@ const data = {
     {
       id: 7,
       company: "Shortly",
-      logo: "./src/assets/images/shortly.svg",
+      logo: "./public/assets/images/shortly.svg",
       new: false,
       featured: false,
       position: "Junior Developer",
@@ -113,7 +119,7 @@ const data = {
     {
       id: 8,
       company: "Insure",
-      logo: "./src/assets/images/insure.svg",
+      logo: "./public/assets/images/insure.svg",
       new: false,
       featured: false,
       position: "Junior Frontend Developer",
@@ -128,7 +134,7 @@ const data = {
     {
       id: 9,
       company: "Eyecam Co.",
-      logo: "./src/assets/images/eyecam-co.svg",
+      logo: "./public/assets/images/eyecam-co.svg",
       new: false,
       featured: false,
       position: "Full Stack Engineer",
@@ -143,7 +149,7 @@ const data = {
     {
       id: 10,
       company: "The Air Filter Company",
-      logo: "./src/assets/images/the-air-filter-company.svg",
+      logo: "./public/assets/images/the-air-filter-company.svg",
       new: false,
       featured: false,
       position: "Front-end Dev",
@@ -157,5 +163,3 @@ const data = {
     },
   ],
 }
-
-export default data
